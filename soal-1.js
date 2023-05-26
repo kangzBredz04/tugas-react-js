@@ -4,14 +4,9 @@ let dataDiri = {
   email: "wabredz1234@gmail.com",
 };
 
-console.log(
-  "Nama : " +
-    dataDiri.nama +
-    "\nNIM : " +
-    dataDiri.nim +
-    "\nEmail : " +
-    dataDiri.email
-);
+let { nama, nim, email } = dataDiri;
+
+console.log("Nama : " + nama + "\nNIM : " + nim + "\nEmail :" + email);
 
 const teman1 = ["Dimas", "Dimun"];
 const teman2 = ["Tigana", "Rey"];
